@@ -1,0 +1,1 @@
+# CORE-FT-Pairing-Katas-Day2
