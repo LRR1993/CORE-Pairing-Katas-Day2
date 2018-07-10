@@ -1,7 +1,7 @@
-const vegCounter = require('../vegCounter');
+// const vegCounter = require('../vegCounter');
 
 describe('vegCounter', () => {
-    it ('describe what happens if this test succeeds here', () => {
-        // expect(vegCounter()).to...
+    it('describe what happens if this test succeeds here', () => {
+    // expect(vegCounter()).to...
     });
 });

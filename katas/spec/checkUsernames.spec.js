@@ -1,7 +1,7 @@
-const checkUsernames = require('../checkUsernames');
+// const checkUsernames = require('../checkUsernames');
 
 describe('checkUsernames', () => {
-    it ('describe what happens if this test succeeds here', () => {
-        // expect(checkUsernames()).to...
+    it('describe what happens if this test succeeds here', () => {
+    // expect(checkUsernames()).to...
     });
 });

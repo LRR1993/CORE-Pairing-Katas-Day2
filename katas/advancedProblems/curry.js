@@ -13,27 +13,22 @@
 */
 
 // binary functions
-function add(a, b) {
-  return a + b;
-}
+// function add(a, b) {
+//   return a + b;
+// }
 
-function mul(a, b) {
-  return a * b;
-}
+// function mul(a, b) {
+//   return a * b;
+// }
 
-function subtract (a, b) {
-  return a - b;
-}
+// function subtract (a, b) {
+//   return a - b;
+// }
 
-function divide (a, b) {
-  return a / b;
-}
+// function divide (a, b) {
+//   return a / b;
+// }
 
-
-function curry() {
-
-}
+function curry() {}
 
 module.exports = curry;
-
-
