@@ -1,13 +1,12 @@
 {
   "name": "project-template",
   "version": "1.0.0",
-  "description":
-    "A project template for all your CORE needs. Well, most of them.",
+  "description": "A project template for all your CORE needs. Well, most of them.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha katas/spec",
+    "test": "mocha spec",
     "start": "node index.js",
-    "lint": "eslint ./",
+    "lint": "./node_modules/.bin/eslint ./katas --fix --format codeframe ",
     "precommit": "npm test",
     "posttest": "npm run lint"
   },
@@ -19,7 +18,9 @@
   "homepage": "https://github.com/Northcoders/CORE-project-template.git#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.16.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "husky": "^0.14.3",
     "mocha": "^5.0.0"
   }
