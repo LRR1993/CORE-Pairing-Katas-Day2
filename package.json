@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha spec",
     "start": "node index.js",
-    "lint": "./node_modules/.bin/eslint ./katas --fix --format codeframe ",
+    "lint": "./node_modules/.bin/eslint ./ --fix --format codeframe ",
     "precommit": "npm test",
     "posttest": "npm run lint"
   },

@@ -8,7 +8,7 @@
   - is no longer than 20 characters
 */
 
-function checkUsernames () {
+function checkUsernames() {
 
 }
 

@@ -8,7 +8,7 @@
     --> 6
 */
 
-function sumDigits () {
+function sumDigits() {
 
 }
 

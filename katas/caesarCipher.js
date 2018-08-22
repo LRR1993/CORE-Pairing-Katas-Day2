@@ -9,8 +9,7 @@
     --> 'ebiil tloia!'
 */
 
-function caesarCipher () {
-
+function caesarCipher() {
 }
 
 module.exports = caesarCipher;

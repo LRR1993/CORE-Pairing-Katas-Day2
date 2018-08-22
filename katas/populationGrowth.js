@@ -9,7 +9,7 @@
   --> 25
 */
 
-function getYearsOfGrowth () {
+function getYearsOfGrowth() {
 
 }
 

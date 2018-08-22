@@ -10,7 +10,7 @@
   --> false
 */
 
-function checkStudents () {
+function checkStudents() {
 
 }
 

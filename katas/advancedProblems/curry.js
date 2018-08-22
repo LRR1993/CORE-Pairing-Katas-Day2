@@ -3,7 +3,7 @@
 
   Binary functions have been provided.
 
-  Eg. 
+  Eg.
 
   var add3 = curry(add, 3)
   add3(4) --> 7

@@ -23,7 +23,7 @@ should return:
 ]
 */
 
-function orderVeg () {
+function orderVeg() {
 
 }
 
