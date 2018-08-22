@@ -1,4 +1,4 @@
-/* 
+/*
 Write a function, add, that adds from two invocations.
 
 E.g. add(1)(3) --> 4

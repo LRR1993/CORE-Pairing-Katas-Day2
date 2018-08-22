@@ -14,7 +14,7 @@
 ], 'root')
 */
 
-function vegCounter () {
+function vegCounter() {
 
 }
 

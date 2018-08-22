@@ -4,7 +4,7 @@
   E.g. the name 'John' would get the score 431 because 'j' has the ASCII code 106, 'o' has the ASCII code 111, 'h' has the ASCII code 104 and 'n' has the ASCII code 110.
 */
 
-function getAscii () {
+function getAscii() {
 
 }
 
