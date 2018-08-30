@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const checkUsernames = require('../katas/checkUsernames');
 
 describe('checkUsernames', () => {

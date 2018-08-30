@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const lengthenDate = require('../katas/lengthenDate');
 
 describe('lengthenDate', () => {

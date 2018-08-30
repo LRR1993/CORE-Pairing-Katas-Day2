@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const sumDigits = require('../katas/sumDigits');
 
 describe('sumDigits', () => {

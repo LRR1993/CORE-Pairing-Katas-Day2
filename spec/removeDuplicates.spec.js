@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const removeDuplicates = require('../katas/removeDuplicates');
 
 describe('removeDuplicates', () => {

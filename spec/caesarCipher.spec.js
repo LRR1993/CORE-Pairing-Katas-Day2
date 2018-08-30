@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const caesarCipher = require('../katas/caesarCipher');
 
 describe('caesarCipher', () => {

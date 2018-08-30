@@ -1,4 +1,3 @@
-const { describe, it } = require('mocha');
 // const populationGrowth = require('../katas/populationGrowth');
 
 describe('populationGrowth', () => {
