@@ -9,6 +9,6 @@ describe('checkUsernames', () => {
   });
   it('check characters in username', () => {
     expect(checkUsernames('natasha')).to.equal(true);
-    expect(checkUsernames('HAY7_*h')).to.equal(false);
+    expect(checkUsernames('HAY7_h')).to.equal(false);
   });
 });

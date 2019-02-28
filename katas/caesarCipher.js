@@ -9,7 +9,24 @@
     --> 'ebiil tloia!'
 */
 
-function caesarCipher() {
+function caesarCipher(str, num) {
+  // str
+  //   .split('')
+  //   .map(letter => String.fromCharCode(letter.charCodeAt() + num))
+  //   .join('');
+
+  return (
+    str
+      .split('')
+      // eslint-disable-next-line arrow-parens
+      .map(letter => {
+        if (letter.charCodeAt() >= 97 && letter.charCodeAt() <= 122) {
+          return String.fromCharCode(letter.charCodeAt() + num);
+        }
+        return letter;
+      })
+      .join('')
+  );
 }
 
 module.exports = caesarCipher;

@@ -9,10 +9,12 @@
 */
 
 function sumDigits(num) {
- //return num.toString().split('').map(string => +string).reduce((numOne, numTwo) => numOne + numTwo)
-
-return num.toString().split('').filter(string => string != ".").map(string => +string).reduce((numOne, numTwo) => numOne + numTwo)
-
+  return num
+    .toString()
+    .split('')
+    .filter(string => string !== '.')
+    .map(string => +string)
+    .reduce((numOne, numTwo) => numOne + numTwo);
 }
 
 module.exports = sumDigits;
